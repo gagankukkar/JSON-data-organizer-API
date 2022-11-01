@@ -22,3 +22,4 @@ The purpose of this project is to take blog post data from an external API and o
 - Express
 - Jest
 - Axios
+- For development: ESLint, Nodemon, REST Client (VS Code extension) 
