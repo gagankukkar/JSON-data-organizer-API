@@ -42,7 +42,6 @@ app.get('/api/posts', (req, res) => {
     } catch (err) {
       return res.status(500).json({ error: err.response.data.error})
     }
-    
 
     let postDataFiltered = []
 
