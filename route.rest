@@ -1,0 +1,45 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/api/ping
+
+### test api/posts without query
+
+GET http://localhost:3000/api/posts
+
+### test api/posts with 1 tag
+
+GET http://localhost:3000/api/posts?tags=history
+
+### test api/posts with multiple tags
+
+GET http://localhost:3000/api/posts?tags=history,tech,science
+
+### test api/posts with sorting
+
+GET http://localhost:3000/api/posts?tags=history&sortBy=popularity
+
+### test api/posts with invalid sorting
+
+GET http://localhost:3000/api/posts?tags=history&sortBy=hello
+
+### test api/posts with no sorting value
+
+GET http://localhost:3000/api/posts?tags=history&sortBy=
+
+### test api/posts with direction
+
+GET http://localhost:3000/api/posts?tags=history&direction=desc
+
+### test api/posts with invalid direction
+
+GET http://localhost:3000/api/posts?tags=history&direction=hello
+
+### test api/posts with no direction value
+
+GET http://localhost:3000/api/posts?tags=history&direction=
+
+### test api/posts with multiple tags, sorting, and direction
+
+GET http://localhost:3000/api/posts?tags=history,tech,science&sortBy=popularity&direction=desc
