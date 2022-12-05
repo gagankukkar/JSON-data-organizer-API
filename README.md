@@ -1,6 +1,6 @@
-# blog-posts
+# JSON-data-organizer-API
 
-The purpose of this project is to take blog post data from an external API and organize it for the end user.
+The purpose of this project is to take raw data from an external API and organize it for the end user.
 
 ## How it Works
 - Parse the client's query
